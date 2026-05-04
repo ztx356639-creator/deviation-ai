@@ -1,9 +1,39 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.db
-*.sqlite
+*.pickle
+.Python
+venv/
+.venv/
+
+# Node
 node_modules/
 dist/
-.env
+dist-ssr/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
 *.log
+npm-debug.log*
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Build
+*.egg-info/
+*.whl
+
+# Test
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local files
+.env
+.env.local
+deviations.db
